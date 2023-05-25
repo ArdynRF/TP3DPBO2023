@@ -28,25 +28,25 @@ Pada program ini terdapat 3 tabel yaitu:
 6. lalu ada halaman daftar genre yg menampilkan tabel berisi genre genre yg tersedia, di halaman ini juga ada form yg digunakan untuk mengubah dan menambah daftar studio.
 
 ## Dokumentasi
-** Halaman Home **
+**Halaman Home**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/home.png)
 
-** Halaman Detail **
+**Halaman Detail**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/detail.png)
 
-** Halaman Add Film **
+**Halaman Add Film**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/tambah.png)
 
-** Halaman Edit Film **
+**Halaman Edit Film**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/edit.png)
 
-** Halaman Daftar Studio **
+**Halaman Daftar Studio**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/studio.png)
 
 **Halaman Genres**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/genre.png)
 
-Dokumentasi Video
+**Dokumentasi Video**
 
 https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/2023-05-25%2021-02-58.mkv
 
