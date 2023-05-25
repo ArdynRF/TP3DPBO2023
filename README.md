@@ -12,7 +12,7 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 * Menggunakan template/skin tabel yang sama untuk menampilkan tabel
 
 ## Desaign Program
-![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/d2822b0e-2fb2-4a5d-b457-889a004374f5)
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/design_DB.png)
 
 Pada program ini terdapat 3 tabel yaitu:
 1. Tabel Film yang berisi 7 atribut dengan atribut `film_id` sebagai primary keynya. Tabel ini memiliki relasi many to one dengan tabel Director dimana foreign keynya ada pada atribut`studio_id` dan juga berelasi many to one dengan tabel Genre dimana foreign keynya ada pada atribut `genre_id`.
