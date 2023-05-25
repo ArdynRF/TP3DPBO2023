@@ -43,7 +43,7 @@ Pada program ini terdapat 3 tabel yaitu:
 **Halaman Daftar Studio**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/studio.png)
 
-**Halaman Genres**
+**Halaman Daftar Genre**
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/genre.png)
 
 **Dokumentasi Video**
