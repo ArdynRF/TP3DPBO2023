@@ -29,7 +29,7 @@ Pada program ini terdapat 3 tabel yaitu:
 
 ## Dokumentasi
 Halaman Home
-![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/detail.png)
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/home.png)
 
 Halaman Detail
 ![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/detail.png)
