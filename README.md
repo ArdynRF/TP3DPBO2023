@@ -48,6 +48,7 @@ Pada program ini terdapat 3 tabel yaitu:
 
 **Dokumentasi Video**
 
-https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/2023-05-25%2021-02-58.mp4
+https://github.com/ArdynRF/TP3DPBO2023/assets/100755313/d1f06e7b-6c01-4644-b322-ba1d3659c6ea
+
 
 
