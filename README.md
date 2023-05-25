@@ -15,40 +15,39 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 ![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/d2822b0e-2fb2-4a5d-b457-889a004374f5)
 
 Pada program ini terdapat 3 tabel yaitu:
-1. Tabel Film yang berisi 7 atribut dengan atribut `film_id` sebagai primary keynya. Tabel ini memiliki relasi many to one dengan tabel Director dimana foreign keynya ada pada atribut`film_director` dan juga berelasi many to one dengan tabel Genre dimana foreign keynya ada pada atribut `film_genre`.
-2. Tabel Director berisi 3 atribut dengan atribut `director_id` sebagai primary keynya. Tabel ini memiliki relasi one to many dengan tabel Film
-3. Tabel Genre berisi 3 atribut dengan atribut `genre_id` sebagai primary keynya. Tabel ini memiliki relasi one to many dengan tabel Film.
+1. Tabel Film yang berisi 7 atribut dengan atribut `film_id` sebagai primary keynya. Tabel ini memiliki relasi many to one dengan tabel Director dimana foreign keynya ada pada atribut`studio_id` dan juga berelasi many to one dengan tabel Genre dimana foreign keynya ada pada atribut `genre_id`.
+2. Tabel Studio berisi 2 atribut dengan atribut `studio_id` sebagai primary keynya. Tabel ini memiliki relasi one to many dengan tabel Film
+3. Tabel Genre berisi 2 atribut dengan atribut `genre_id` sebagai primary keynya. Tabel ini memiliki relasi one to many dengan tabel Film.
 
 ## Penjelasan alur
-1. Ketika pertama kali mengakses, pengguna akan diarahkan pada halaman home yang berisi kumpulan film yang tersedia di database. Pada navbar terdapat navigasi untuk berpindah ke halaman add film, directors, dan genres, juga terdapat field untuk mencari film dan dropdown untuk pilihan filter, misalnya untuk mengurutkan berdasarkan tahun rilis film, dll. Data film yang ditampilkan dapat diklik untuk melihat data film secara lebih detail.
-2. Jika user mengklik salah satu film pada halaman home, maka akan diarahkan pada halaman detail. Pada halaman ini juga terdapat tombol untuk mengubah data film dan menghapus data film yang dipilih.
-3. Jika pengguna menekan tombol ubah data pada halaman detail, maka akan diarahkan ke halaman form untuk mengubah data. Form sudah terisi dengan data film yang akan diubah
-4. Pada halaman add film berisi form untuk menambahkan data film baru.
-5. Pada halaman Directors berisi tabel kumpulan data director yang tersedia di database, pada halaman ini juga sudah tersedia form untuk menambahkan data director baru yang terletak di sebelah kanan tabel.
-6. Jika pengguna ingin mengubah data director maka dapat menekan icon pen pada kolom action di tabel yang nantinya akan diarahkan ke halaman Directors tetapi dengan form yang sudah terisi
-7. Jika pengguna ingin menghapus data director maka dapat menekan icon trashcan pada kolom action di tabel yang nantinya akan memunculkan peringatan untuk menghapus.
+1. Saat pengguna mengakses website maka halaman yg pertama muncul adalah Home yg berisi list film, di halaman ini dapat mencari film yang diinginkan dengan kolom Searching yg disediakan.
+2. Untuk mengakses detail dari film, klik film yg diinginkan lalu halaman detail akan muncul, di halaman detail pengguna dapat menghapus film atau mengubah data film.
+3. ketika pengguna ingin mengubah data film maka akan diarahkan ke halaman form untuk mengubah data film.
+4. Selanjutnya, jika pengguna ingin menambahkan film, dapat mengakses navbar Tambah Film dan akan muncul form untuk menambah film.
+5. lalu ada halaman daftar studio yg menampilkan tabel berisi studio studio yg tersedia, di halaman ini juga ada form yg digunakan untuk mengubah dan menambah daftar studio.
+6. lalu ada halaman daftar genre yg menampilkan tabel berisi genre genre yg tersedia, di halaman ini juga ada form yg digunakan untuk mengubah dan menambah daftar studio.
 
 ## Dokumentasi
 Halaman Home
-![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/adb96fdb-a697-46b8-9d4d-c4a268b71819)
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/detail.png)
 
 Halaman Detail
-![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/1f46e69a-1945-4026-99c6-fda37b7b7d3d)
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/detail.png)
 
 Halaman Add Film
-![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/576610c3-656a-4fab-942e-5c1d05324dbc)
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/tambah.png)
 
 Halaman Edit Film
-![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/3f304e70-9aef-43a2-9976-30952c22da30)
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/edit.png)
 
-Halaman Directors
-![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/e5b06463-6bdc-424f-ad74-47c4c9784086)
+Halaman Daftar Studio
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/studio.png)
 
 Halaman Genres
-![image](https://github.com/Khaairi/TP3DPBO2023/assets/100757455/f1cbbbc4-dd01-48b7-a5ea-67fe67bec16d)
+![image](https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/genre.png)
 
 Dokumentasi Video
 
-https://github.com/Khaairi/TP3DPBO2023/assets/100757455/ec31fe08-75e3-48b8-ae05-6d5c57bc6dec
+https://github.com/ArdynRF/TP3DPBO2023/blob/main/assets/documentation/2023-05-25%2021-02-58.mkv
 
 
